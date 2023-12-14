@@ -168,7 +168,7 @@
     position: relative;
 }
 .product-box:hover {
-    padding: 3px;
+    padding: 0.5px;
     border: 0.5px solid var(--text-color);
     transition: all 0.3s;
 }
@@ -198,4 +198,38 @@
 }
 .add-cart:hover {
     background: hsl(249%, 32%, 17%);
+}
+
+/* Breakpoints / Making Responsive */
+@media (max-width: 1080px) {
+    .nav{
+    padding: 15px;
+    }
+}
+    .section {
+        padding: 2rem 0 1rem;
+}
+    .container {
+    margin: 0 auto;
+    width: 90%;
+}
+.shop {
+    margin-top: 2rem !important;
+}
+@media (max-width: 400px){
+    .nav {
+        padding: 11px;
+}
+    }
+.logo{
+    font-size: 1rem;
+}
+.cart {
+    width: 320px;
+    
+}
+@media (max-width: 400px){
+    .shop{
+        margin-top: 1 rem !important;
+    }
 }
